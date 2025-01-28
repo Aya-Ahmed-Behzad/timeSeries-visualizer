@@ -5,16 +5,17 @@
 This **python** project is the solution to this [FreeCodeCamp project](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/page-view-time-series-visualizer).
 
  It was required to visualize time series data from the **FreeCodeCamp.org** forum, containing daily page views from **May 9, 2016, to December 3, 2019**.
-Using **Matplotlib** and **Seaborn** libraries to visualize the data,
-and  using **Pandas** library to analyze and clean the dataset.
-The data is cleaned by filtering out extreme values (the top and bottom 2.5%) to focus on the core trends.
-
 The goal is to analyze and visualize trends, growth patterns, and seasonal fluctuations in forum page views over time.
 
+## Technologies used:
+
+- **Matplotlib** and **Seaborn** libraries: to visualize the data.
+- **Pandas** library: to import, analyze and clean the dataset.
+The data is cleaned by filtering out extreme values (the top and bottom 2.5%) to focus on the core trends.
 
 ## Key Features
 
-- **Data Import & Cleaning**: Using **Pandas** library n python to import,analyze and clean the dataset.
+- **Data analysis and cleaning**
 - **Line Chart**: Displays daily page views over time.
 - **Bar Chart**: shows the average daily page views by month and year.
 - **Box Plots**:Illustrates the distribution of page views on a yearly and monthly basis.
