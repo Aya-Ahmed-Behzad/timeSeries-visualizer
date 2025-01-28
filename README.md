@@ -53,22 +53,22 @@ This bar chart shows the average daily page views for each month, grouped by yea
 These box plots help visualize the distribution of page views both by year and by month, revealing any trends or seasonal variations in the data.
 ![box plot](box_plot.png)
 
-- Year-wise Box Plot (Trend)
+- Year-wise Box Plot (Trend):
 This plot illustrates the distribution of page views for each year, providing insights into yearly trends and anomalies.
 
 
-- Month-wise Box Plot (Seasonality)
+- Month-wise Box Plot (Seasonality):
 This plot shows how page views are distributed by month, highlighting any seasonal variations in traffic.
 
 ## Installation
 
 To run this project :
-- Install the necessary dependencies:
+Install the necessary dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-- run main.py which will run the unit tests and generate the visualizations.
+run main.py which will run the unit tests and generate the visualizations.
 ```bash
 python main.py
 ```
